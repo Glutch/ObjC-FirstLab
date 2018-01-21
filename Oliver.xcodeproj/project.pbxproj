@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D16BA86C201138BD00FF4CE5 /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16BA86B201138BD00FF4CE5 /* AboutMeViewController.m */; };
+		D1D3DAAF200CCEE400359982 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D3DAAE200CCEE400359982 /* AppDelegate.m */; };
+		D1D3DAB2200CCEE400359982 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D3DAB1200CCEE400359982 /* ViewController.m */; };
+		D1D3DAB5200CCEE400359982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D3DAB3200CCEE400359982 /* Main.storyboard */; };
+		D1D3DAB7200CCEE400359982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D3DAB6200CCEE400359982 /* Assets.xcassets */; };
+		D1D3DABA200CCEE400359982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D3DAB8200CCEE400359982 /* LaunchScreen.storyboard */; };
+		D1D3DABD200CCEE400359982 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D3DABC200CCEE400359982 /* main.m */; };
+		D1D3DAC4200CD1F400359982 /* glutch.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D3DAC3200CD1F400359982 /* glutch.png */; };
+		D1D3DAC7200CD5B400359982 /* node.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D3DAC6200CD5B400359982 /* node.png */; };
+		D1D3DAC9200CD5ED00359982 /* react.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D3DAC8200CD5ED00359982 /* react.png */; };
+		D1D3DACB200CD61C00359982 /* mongodb.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D3DACA200CD61C00359982 /* mongodb.png */; };
+		D1D3DAD5200CE5B400359982 /* NSObject+Global.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D3DAD4200CE5B400359982 /* NSObject+Global.m */; };
+		D1D3DAD8200CE75900359982 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D3DAD7200CE75900359982 /* GameViewController.m */; };
+		D1D3DB1F2010A53C00359982 /* GithubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D3DB1E2010A53C00359982 /* GithubViewController.m */; };
+		D1D3DB212010E12200359982 /* wizard.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D3DB202010E12200359982 /* wizard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D16BA86A201138BD00FF4CE5 /* AboutMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutMeViewController.h; sourceTree = "<group>"; };
+		D16BA86B201138BD00FF4CE5 /* AboutMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutMeViewController.m; sourceTree = "<group>"; };
+		D1D3DAAA200CCEE400359982 /* Oliver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oliver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D3DAAD200CCEE400359982 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1D3DAAE200CCEE400359982 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1D3DAB0200CCEE400359982 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1D3DAB1200CCEE400359982 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1D3DAB4200CCEE400359982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1D3DAB6200CCEE400359982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1D3DAB9200CCEE400359982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1D3DABB200CCEE400359982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1D3DABC200CCEE400359982 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1D3DAC3200CD1F400359982 /* glutch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glutch.png; sourceTree = "<group>"; };
+		D1D3DAC6200CD5B400359982 /* node.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = node.png; path = ../../../../../Desktop/node.png; sourceTree = "<group>"; };
+		D1D3DAC8200CD5ED00359982 /* react.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = react.png; path = ../../../../../Desktop/react.png; sourceTree = "<group>"; };
+		D1D3DACA200CD61C00359982 /* mongodb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mongodb.png; path = ../../../../../Desktop/mongodb.png; sourceTree = "<group>"; };
+		D1D3DAD3200CE5B400359982 /* NSObject+Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Global.h"; sourceTree = "<group>"; };
+		D1D3DAD4200CE5B400359982 /* NSObject+Global.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Global.m"; sourceTree = "<group>"; };
+		D1D3DAD6200CE75900359982 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D1D3DAD7200CE75900359982 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D1D3DB1D2010A53C00359982 /* GithubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GithubViewController.h; sourceTree = "<group>"; };
+		D1D3DB1E2010A53C00359982 /* GithubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubViewController.m; sourceTree = "<group>"; };
+		D1D3DB202010E12200359982 /* wizard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wizard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1D3DAA7200CCEE400359982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1D3DAA1200CCEE400359982 = {
+			isa = PBXGroup;
+			children = (
+				D1D3DAAC200CCEE400359982 /* Oliver */,
+				D1D3DAAB200CCEE400359982 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1D3DAAB200CCEE400359982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1D3DAAA200CCEE400359982 /* Oliver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1D3DAAC200CCEE400359982 /* Oliver */ = {
+			isa = PBXGroup;
+			children = (
+				D1D3DAC5200CD55900359982 /* Images */,
+				D1D3DAD3200CE5B400359982 /* NSObject+Global.h */,
+				D1D3DAD4200CE5B400359982 /* NSObject+Global.m */,
+				D1D3DB202010E12200359982 /* wizard.m */,
+				D1D3DAAD200CCEE400359982 /* AppDelegate.h */,
+				D1D3DAAE200CCEE400359982 /* AppDelegate.m */,
+				D1D3DAB0200CCEE400359982 /* ViewController.h */,
+				D1D3DAB1200CCEE400359982 /* ViewController.m */,
+				D1D3DB1D2010A53C00359982 /* GithubViewController.h */,
+				D1D3DB1E2010A53C00359982 /* GithubViewController.m */,
+				D1D3DAD6200CE75900359982 /* GameViewController.h */,
+				D1D3DAD7200CE75900359982 /* GameViewController.m */,
+				D16BA86A201138BD00FF4CE5 /* AboutMeViewController.h */,
+				D16BA86B201138BD00FF4CE5 /* AboutMeViewController.m */,
+				D1D3DAB3200CCEE400359982 /* Main.storyboard */,
+				D1D3DAB6200CCEE400359982 /* Assets.xcassets */,
+				D1D3DAB8200CCEE400359982 /* LaunchScreen.storyboard */,
+				D1D3DABB200CCEE400359982 /* Info.plist */,
+				D1D3DABC200CCEE400359982 /* main.m */,
+			);
+			path = Oliver;
+			sourceTree = "<group>";
+		};
+		D1D3DAC5200CD55900359982 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D1D3DACA200CD61C00359982 /* mongodb.png */,
+				D1D3DAC8200CD5ED00359982 /* react.png */,
+				D1D3DAC6200CD5B400359982 /* node.png */,
+				D1D3DAC3200CD1F400359982 /* glutch.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1D3DAA9200CCEE400359982 /* Oliver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1D3DAC0200CCEE400359982 /* Build configuration list for PBXNativeTarget "Oliver" */;
+			buildPhases = (
+				D1D3DAA6200CCEE400359982 /* Sources */,
+				D1D3DAA7200CCEE400359982 /* Frameworks */,
+				D1D3DAA8200CCEE400359982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oliver;
+			productName = Oliver;
+			productReference = D1D3DAAA200CCEE400359982 /* Oliver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1D3DAA2200CCEE400359982 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Oliver Johansson";
+				TargetAttributes = {
+					D1D3DAA9200CCEE400359982 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D1D3DAA5200CCEE400359982 /* Build configuration list for PBXProject "Oliver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1D3DAA1200CCEE400359982;
+			productRefGroup = D1D3DAAB200CCEE400359982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1D3DAA9200CCEE400359982 /* Oliver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1D3DAA8200CCEE400359982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D3DAC4200CD1F400359982 /* glutch.png in Resources */,
+				D1D3DAC9200CD5ED00359982 /* react.png in Resources */,
+				D1D3DACB200CD61C00359982 /* mongodb.png in Resources */,
+				D1D3DAC7200CD5B400359982 /* node.png in Resources */,
+				D1D3DABA200CCEE400359982 /* LaunchScreen.storyboard in Resources */,
+				D1D3DAB7200CCEE400359982 /* Assets.xcassets in Resources */,
+				D1D3DAB5200CCEE400359982 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1D3DAA6200CCEE400359982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D3DAB2200CCEE400359982 /* ViewController.m in Sources */,
+				D1D3DABD200CCEE400359982 /* main.m in Sources */,
+				D1D3DAAF200CCEE400359982 /* AppDelegate.m in Sources */,
+				D1D3DAD8200CE75900359982 /* GameViewController.m in Sources */,
+				D1D3DAD5200CE5B400359982 /* NSObject+Global.m in Sources */,
+				D1D3DB212010E12200359982 /* wizard.m in Sources */,
+				D16BA86C201138BD00FF4CE5 /* AboutMeViewController.m in Sources */,
+				D1D3DB1F2010A53C00359982 /* GithubViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1D3DAB3200CCEE400359982 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1D3DAB4200CCEE400359982 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1D3DAB8200CCEE400359982 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1D3DAB9200CCEE400359982 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1D3DABE200CCEE400359982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1D3DABF200CCEE400359982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1D3DAC1200CCEE400359982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Oliver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GlutchLab.Oliver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1D3DAC2200CCEE400359982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Oliver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GlutchLab.Oliver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1D3DAA5200CCEE400359982 /* Build configuration list for PBXProject "Oliver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D3DABE200CCEE400359982 /* Debug */,
+				D1D3DABF200CCEE400359982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1D3DAC0200CCEE400359982 /* Build configuration list for PBXNativeTarget "Oliver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D3DAC1200CCEE400359982 /* Debug */,
+				D1D3DAC2200CCEE400359982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1D3DAA2200CCEE400359982 /* Project object */;
+}
