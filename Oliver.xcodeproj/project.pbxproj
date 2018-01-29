@@ -38,9 +38,9 @@
 		D1D3DABB200CCEE400359982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1D3DABC200CCEE400359982 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1D3DAC3200CD1F400359982 /* glutch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glutch.png; sourceTree = "<group>"; };
-		D1D3DAC6200CD5B400359982 /* node.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = node.png; path = ../../../../../Desktop/node.png; sourceTree = "<group>"; };
-		D1D3DAC8200CD5ED00359982 /* react.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = react.png; path = ../../../../../Desktop/react.png; sourceTree = "<group>"; };
-		D1D3DACA200CD61C00359982 /* mongodb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mongodb.png; path = ../../../../../Desktop/mongodb.png; sourceTree = "<group>"; };
+		D1D3DAC6200CD5B400359982 /* node.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = node.png; sourceTree = "<group>"; };
+		D1D3DAC8200CD5ED00359982 /* react.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = react.png; sourceTree = "<group>"; };
+		D1D3DACA200CD61C00359982 /* mongodb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mongodb.png; sourceTree = "<group>"; };
 		D1D3DAD3200CE5B400359982 /* NSObject+Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Global.h"; sourceTree = "<group>"; };
 		D1D3DAD4200CE5B400359982 /* NSObject+Global.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Global.m"; sourceTree = "<group>"; };
 		D1D3DAD6200CE75900359982 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
